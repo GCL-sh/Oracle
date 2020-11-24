@@ -10,6 +10,11 @@ select t.table_name,f.comments from user_tables t
 inner join user_tab_comments f on t.table_name = f.table_name;
 
 
+# 查看所有用户
+select * from all_users;
+select * from user_users;
+
+
 
 
 
